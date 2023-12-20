@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  body{
+      background-color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
+  .task-table{
+      max-width: 800px;
+      padding: 20px 25px;
+      background-color: white;
+      margin: 30px 0;
+      border-radius: 3px;
+      box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  
+  }
+  .header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #435d7d;
+      color:white ;
+      padding: 16px 30px;
+  }
+  .add{
+      background-color: green;
+      color: white;
+  }
+  th{
+      text-align: center;
+      color: lightblue;
+  }
+  .btn{
+      padding: 3px 20px;
+      min-width: 90px;
+  
+  }
+  .btn-primary{
+      color: white;
+      background-color: blue;
+      border-color: #2e6da4;
+  }
+  .form-wrapper{
+      display: none;
+  }
+  .form-wrapper.active{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      left: 0; 
+      top: 0;
+      background-color: rgba(0,0,0,0.6);
+      z-index: 100;
+  }
+  .taskform{
+      background-color: white;
+      width: 600px;
+      padding: 20px 50px;
+      border-radius: 5px;
+  }
+  .form-control{
+      width: 90%;
+  }
+  .group{
+      display: flex;
+      margin: 15px 0;
+  }
+  .grouplabel{
+      width: 70px;
+      line-height: 40px;
+      height: 40px;
+  }
+  .action{
+      display: flex;
+      justify-content: center;
+      gap: 100px;
+      margin: 20px;
+  }
